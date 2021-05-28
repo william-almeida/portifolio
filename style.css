@@ -26,20 +26,21 @@ body {
   height: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
-  width: 300px;
+  width: 34rem;
   display: inline-block;
   background-color: #ffffff;
   margin: 3rem 2rem;
   border-radius: 0.8rem;
-  transition: 300ms;
+  transition: 200ms;
 }
 
 .card:hover {
   width: 32rem;
-  margin: 3rem 1rem;
+  margin: 3rem 3rem;
 }
 
 .card h3{
