@@ -29,11 +29,27 @@ body {
 }
 
 .card {
-  display: inline-block;
   width: 300px;
+  display: inline-block;
   background-color: #ffffff;
   margin: 3rem 2rem;
+  border-radius: 0.8rem;
+  transition: 300ms;
 }
+
+.card:hover {
+  width: 32rem;
+  margin: 3rem 1rem;
+}
+
+.card h3{
+  padding: 0.5rem 1rem;
+}
+.card span{
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+}
+
 .card img{
   width: 100%;
 }
